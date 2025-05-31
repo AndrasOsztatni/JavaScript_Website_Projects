@@ -65,9 +65,6 @@ const copy = () => {
     }
 }
 
-numbers.checked = false;
-smallLetters.checked = false;
-capitalLetters.checked = false;
 
 gen.onclick = generatePassword;
 res.onclick = reset;
